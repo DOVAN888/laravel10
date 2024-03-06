@@ -1,0 +1,334 @@
+
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-height: 100vh; /* Chiều cao tối đa là 100% của viewport height */
+  overflow-y: auto; /* Tự động thêm thanh cuộn khi nội dung vượt quá chiều cao */
+}
+
+.error-message{
+	color:red;
+	font-size: 12px;
+	margin-top:5px;
+	font-size: italic;
+}
+input::placeholder{
+	font-size: 13px;
+}
+.mt20{
+	margin-bottom: 20px;
+
+}.mt20{
+	margin-top: 30px;
+}.table-bordered{
+
+
+}h5{
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.img-cover img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}tabe strong{
+	min-width: 100px;
+	display: inline-block;
+}
+.table > thead >tr > th, 
+.table > tbody >tr > th,
+.table > tfoot >tr > th, 
+.table > thead >tr > th,
+.table > tbody >tr > th,
+.table > tfoot >tr > th{
+	vertical-align:middle;
+}
+.uk-flex-space-between{
+	-ms-flex-pack:justify;
+	-webkit-justify-content:space-between;
+	justify-content: space-between;
+}
+.uk-flex-middle{
+	-ms-flex-align:center;
+	-webkit-align-items:center;
+	align-items: center;
+
+}
+.uk-flex{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}.perpage{
+	display: inline-block;
+}
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+/* Form controls */
+.filter.form-control {
+  width: 300px;
+  height: 32px;
+  max-width: 200px;
+  margin-top: 0;
+}
+
+.mr5 {
+  margin-right: 8px;
+}
+
+.btn-danger {
+  margin-left: 8px;
+}
+
+/* Footer styles */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Box styles */
+.box.ibox {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Margin-bottom utility class */
+.mb15 {
+  margin-bottom: 15px;
+}
+
+/* Display block for control label */
+.control-label {
+  display: block;
+}
+
+/* Panel styles */
+.panel-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #333; /* Adjust color */
+}
+
+.panel-description {
+  font-size: 16px; /* Adjust size */
+}
+
+/* Active class styles */
+/*.active {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Overflow utility class */
+/*.overflow {
+  overflow: auto;
+  overflow-y: scroll;
+  max-height: 100vh;
+}*/
+
+/* Form input width */
+.form-row  {
+  width: 100%; /* Make it responsive */
+  max-width: 400px; /* Adjust max width if needed */
+  height: 32;
+}
+/* CSS cho select box */
+.select2-container {
+  position: relative;
+}
+
+/* CSS cho dropdown options */
+.select2-container--default{
+  position: absolute;
+  top: 0;
+
+  // phan siderbar
+}.nav-second-level {
+    display: none;
+}.active-bg{
+  background: #ffc !important;
+}.checkBoxItem{
+  width: 15px;
+  height: 15px;
+}.uk-flex uk-flex-middle{
+ 
+
+}.mr10{
+  width: 300px;
+   border-radius: 10px;
+   margin-left: 20px;
+}
+/* CSS Style */
+.img-cover img {
+    width: 100px;
+    height: 100px;
+    }
+  .canonical{
+    color: green;
+    margin-bottom: 8px;
+  }
+  .meta-description{
+    font-size: 14px;
+  
+  }.overflow {
+  height: 800px; /* Set the desired height for the overflow container */
+  overflow: auto; /* Enable vertical scroll if content overflows */
+  overflow-x: hidden;
+
+}.ibox{
+  margin-top: 20px;
+  
+}.post{
+  width: 800px;
+}.notice{
+  font-size: 11px;
+  font-style:italic ;
+  display: block;
+  margin-bottom: 10px;
+
+
+}.image-target{
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  /*margin-left: 7px;*/
+  margin: 0 ;
+
+  
+  }.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper input {
+  border: 1px solid #e5e6e7 !important;/*!important de uu tien no se ghi de len bat cu thuoc tinh nao giong no va no la manh nhat */
+  padding: 0 10px;
+  height: 31px;
+  line-height: 31px;
+  width: calc(100% - 22px); /* Sử dụng calc để tính toán chiều rộng */
+  z-index: 2; /* Đặt z-index cao hơn để nó hiển thị trên cùng */
+  
+   padding-left: 220px;
+  }
+
+.input-wrapper .baseUrl {
+  position: absolute;
+  top: 0;
+  left: 10px; /* Điều chỉnh vị trí của span */
+  height: 31px;
+  line-height: 31px;
+  z-index: 1; /* Đặt z-index thấp hơn để nó hiển thị phía sau input */
+
+}
+
+.input-wrapper input:focus +.baseUrl {
+  display:inline-block; /* focus la khi nhap chuuot vao thi se co tac dung  */
+
+}input[name="canonical"] {
+  color: navy;
+  font-weight: 600px;
+
+
+}.upload-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333; /* Màu chữ */
+  font-weight: bold;
+}
+
+.upload-button svg {
+  margin-right: 8px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+#sortable{
+  list-style: none;
+
+}
+/* Clearfix để xử lý các phần tử float */
+.clearfix:before
+.clearfix:after {
+  display: table;
+  clear: both;
+}
+
+/* CSS cho các phần tử có lớp 'sortui' và 'ui-state-default' */
+.sortui .ui-state-default {
+  width: calc(20% - 2px); /* Đặt chiều rộng là 20%, trừ đi 2px */
+  float: left; /* Đặt phần tử float về bên trái */
+  padding-left: 10px; /* Thêm padding bên trái là 10px */
+  margin-bottom: 20px; /* Thêm margin dưới cùng là 20px */
+  margin: 0 0 10px 0; /* Margin viết tắt - top: 0, right: 0, bottom: 10px, left: 0 */
+  cursor: move; /* Đổi con trỏ chuột để chỉ ra có thể di chuyển */
+  background: transparent; /* Đặt màu nền là trong suốt */
+  box-shadow: none; /* Loại bỏ đổ bóng */
+  margin-left: 15px;
+}
+
+/* CSS cho các phần tử có lớp 'img-scaledown' */
+.img-scaledown {
+  display: block; /* Đặt phần tử là block-level */
+  width: 100%; /* Đặt chiều rộng là 100% */
+  height: 100%; /* Đặt chiều cao là 100% */
+  
+}
+
+/* CSS bổ sung cho hình ảnh bên trong 'img-scaledown' */
+.img-scaledown img {
+  display: block; /* Đặt hình ảnh là block-level */
+  width: 100px; /* Đặt chiều rộng hình ảnh là 100px */
+  height: 100px; /* Đặt chiều cao hình ảnh là 100px */
+  object-fit: scale-down; /* Thu nhỏ hình ảnh để vừa với kích thước đã chỉ định */
+  
+}
+
+/* CSS cho các phần tử có lớp 'click-to-upload' */
+.click-to-upload {
+  text-align: center; /* Canh chỉnh văn bản vào giữa */
+  padding: 20px; /* Thêm padding 20px */
+  border: 1px dashed #b8b2b2; /* Thêm viền đứt dạng chấm với màu #b8b2b2 */
+  outline: 0; /* Loại bỏ đường viền khi được tập trung */
+  /*display: none; Ẩn phần tử 
+*/
+
+}#anh{
+  width:888px;
+}
+
+#sortable .thumb{
+position: relative;
+}
+#sortable .delete-image{
+  position: absolute;
+ 
+  color: red;
+  background: linear-gradient(to bottom,#fff,#f9fafb) ;
+  border: 0;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+width: 25px;
+height: 25px;
+bottom: 10px;
+ right: 10px;
+
+} #sortable .delete-image:hover{
+  background: red;
+  color: #fff;
+}.catalogue{
+  font-weight:bold;
+}
+
+
+
